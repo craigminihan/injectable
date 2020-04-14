@@ -6,10 +6,11 @@ from typing import Set
 
 from parameters_validation import non_blank
 from parameters_validation import non_null
-from pycollect import PythonFileCollector, find_module_name
+from pycollect import PythonFileCollector
 
 from injectable.container.injectable import Injectable
 from injectable.container.namespace import Namespace
+from injectable.container.utils import find_module_name
 
 
 class InjectionContainer:
